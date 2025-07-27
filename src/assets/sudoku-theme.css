@@ -1,0 +1,85 @@
+/* SudokuFront - Style global moderne */
+body {
+  background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  color: #222;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #6366f1;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.sudoku-container {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(99,102,241,0.12), 0 1.5px 6px rgba(99,102,241,0.08);
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin-top: 2rem;
+  transition: box-shadow 0.5s;
+}
+.sudoku-container:hover {
+  box-shadow: 0 8px 48px rgba(99,102,241,0.18), 0 2px 8px rgba(99,102,241,0.12);
+}
+
+.sudoku-grid {
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+.sudoku-grid td {
+  border: 1px solid #cbd5e1;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: #f1f5f9;
+  transition: background 0.5s;
+}
+.sudoku-grid input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #6366f1;
+  font-weight: 600;
+  transition: background 0.5s, color 0.5s;
+}
+.sudoku-grid input:focus {
+  background: #e0e7ff;
+  color: #1e293b;
+}
+.block-border {
+  border-right: 2.5px solid #6366f1 !important;
+  border-bottom: 2.5px solid #6366f1 !important;
+}
+button {
+  background: linear-gradient(90deg, #6366f1 0%, #818cf8 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+  transition: background 0.5s, box-shadow 0.5s;
+}
+button:hover {
+  background: linear-gradient(90deg, #818cf8 0%, #6366f1 100%);
+  box-shadow: 0 4px 16px rgba(99,102,241,0.16);
+}
