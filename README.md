@@ -1,4 +1,4 @@
-# SudokuFront
+# SudokuVueJS
 
 Une application Vue 3 (Vite) pour jouer et résoudre des grilles de Sudoku.
 
