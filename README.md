@@ -6,7 +6,7 @@ Une application Vue 3 (Vite) pour jouer et résoudre des grilles de Sudoku.
 
 - Grille de Sudoku interactive à remplir
 - Résolution automatique de la grille (bouton "Résoudre")
-- Les chiffres saisis par l'utilisateur sont affichés en vert, ceux générés par le solveur en bleu
+- Les chiffres saisis par l'utilisateur sont affichés en noir, ceux générés par le solveur en vert
 - Réinitialisation rapide de la grille
 - Design moderne et responsive
 
