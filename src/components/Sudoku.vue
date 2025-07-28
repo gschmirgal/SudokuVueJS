@@ -95,7 +95,6 @@ function solveGrid() {
               grid[row][col] = 0;
             }
           }
-          console.log("erreur");
           return false;
         }
       }
